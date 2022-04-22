@@ -38,9 +38,7 @@ function App() {
       <button onClick={() => setMode('tagalog')}>Tagalog terms</button>
       <button onClick={() => setMode('cebuano')}>Cebuano terms</button>
       <button onClick={() => setMode('cities & countries')}>Cities and countries</button>
-      <br></br>
       <div className="Mode">Current mode: {mode.toUpperCase()}</div>
-      <br></br>
       <h3><b>Step 2:</b>Play using your computer keyboard. :)</h3>
       {solution && <Wordle solution={solution} />}
     </div>

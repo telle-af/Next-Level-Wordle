@@ -11,7 +11,7 @@ export default function Conclusion({ isCorrect, solution, turn }) {
           <p>The word is:</p>
           <p className="solution">{solution}</p>
           <p><b>You found the solution in {turn} guess(es) :)</b></p>
-          <img src={image}/>
+          <img src={image} alt="Kid thumbs up while on computer"/>
         </div>
       )}
       {!isCorrect && (
@@ -20,7 +20,7 @@ export default function Conclusion({ isCorrect, solution, turn }) {
           <p>Solution:</p>
           <p className="solution">{solution}</p>
           <p><b>Better luck next time, I guess.</b></p>
-          <img src={image2} width={460}/>
+          <img src={image2} width={460} alt="Pedro Pascal crying and laughing"/>
         </div>
       )}
     </div>
