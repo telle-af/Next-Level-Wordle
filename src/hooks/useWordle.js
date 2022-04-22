@@ -37,7 +37,6 @@ const useWordle = (solution) => {
     }
 
     //processes the guesses entered by the player depending if correct or not
-    //try changing formattedGuess variable name
     const addNewGuess = (formattedGuess) => {
         if (currentGuess === solution) {
             setIsCorrect(true)
